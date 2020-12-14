@@ -17,18 +17,6 @@ void setup()
  
 }
 
-void serverEvent(Server someServer, Client someClient)
-{
-  hi();
-    myServer.write("hello");
-}
-
-void hi()
-{
-    println("sfsf");
-
-}
-
 void draw()
 {
   if(myTurn)

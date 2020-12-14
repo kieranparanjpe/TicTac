@@ -16,12 +16,6 @@ void setup()
   myClient = new Client(this, "127.0.0.1", 5204);
 }
 
-void clientEvent(Client someClient) {
-  String in = someClient.readString();
-    
-    println(in);
-}
-
 void draw()
 {
   if(myTurn)
